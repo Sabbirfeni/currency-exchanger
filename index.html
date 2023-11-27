@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Tracker</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css" class="css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="./assets/images/united-states.png" alt="from-country">
+                        <select name="" id="">
+                        </select>
+                    </div>
+                </div>
+                <!-- Convert Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" fontWeight="bold" class="bi bi-repeat" viewBox="0 0 16 16">
+                    <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                </svg>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="./assets/images/turkey.png" alt="to-country">
+                        <select name="" id="">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate-view">1 USD = 118.16 NPR</div>
+            <button type="button" class="exchange-btn">Get Exchange Rate</button>
+        </form>
+    </div>
+
+
+    <script src="./assets/js/script.js" type="module"></script>
+    <script src="./assets/js/country-list.js" type="module"></script>
+</body>
+</html>
