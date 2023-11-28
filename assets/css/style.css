@@ -27,6 +27,7 @@ body {
     font-size: 28px;
     font-weight: 600;
     text-align: center;
+    color: #675AFE;
 }
 
 .wrapper form {
@@ -99,9 +100,9 @@ form .drop-list {
     border-right: 2px solid #fff;
 }
 
-.drop-list svg {
+.exchange-icon img {
     cursor: pointer;
-    width: 50px;
+    width: 18px;
     margin-top: 33px;
 }
 
